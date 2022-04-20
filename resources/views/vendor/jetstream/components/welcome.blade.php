@@ -6,7 +6,7 @@
     <div class="mt-8 text-2xl">
         Welcome {{ auth()->user()->name }}!
     </div>
-
+    
     
 </div>
 
