@@ -5,7 +5,7 @@
         </x-slot>
 
         <div class="mb-4 text-sm text-gray-600">
-            {{ __('Thanks for signing up! Before getting started, could you verify your email address by clicking on the link we just emailed to you? If you didn\'t receive the email, we will gladly send you another.') }}
+            {{ __('Thanks for joining. An email verification  has been sent to your email, please verify it to prove that it is you who are using') }}
         </div>
 
         @if (session('status') == 'verification-link-sent')
@@ -20,7 +20,7 @@
 
                 <div>
                     <x-jet-button type="submit">
-                        {{ __('Resend Verification Email') }}
+                        {{ __('No Emails yet? Click Me') }}
                     </x-jet-button>
                 </div>
             </form>
